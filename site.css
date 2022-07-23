@@ -265,3 +265,28 @@ footer {
 
 }
 
+.heading > button{
+    position: relative;
+    bottom: 0;
+    background-color: white;
+}
+
+.offer-button{
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    top: 30%
+}
+
+.offer-button > a{
+
+    color: white;
+}
+
+.contact * a:not(:last-child){
+    cursor: default;
+}
+
+.contact * a:hover{
+    color: #adcce9;
+}
